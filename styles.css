@@ -1,229 +1,233 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html,
-body {
-  width: 100vw;
-  overflow-x: hidden;
-  height: auto;
-  max-width: 100%;
-}
-
-.hero,
-.newsletter,
-nav {
-  background: #fff2f3;
-  padding-inline: 7rem !important;
-  height: fit-content;
-
-}
-
-a {
-  text-decoration: none;
-}
-
-.w-max {
-  width: max-content;
-}
-
-.outlinedbtn:hover {
-  background: #96bb7c39;
-}
-
-.packages,
-.video,
-.cards,
-.newsletter {
-  min-height: 100vh;
-  width: 100vw;
-  padding-inline: 10rem;
-}
-
-.image-hero {
-  height: 50vh !important;
-}
-
-.nav-link:hover {
-  transform: translateY(-0.3rem);
-  color: #ff6868 !important;
-}
-
-.nav-link {
-  transition: ease 0.3s;
-
-}
-
-.navbar-toggler {
-  max-width: min-content !important;
-}
-
-.iconsdiv img,
-.iconsdiv span:nth-of-type(1) {
-  cursor: pointer;
-}
-
-.card {
-  box-shadow: 0rem 1rem 1rem rgba(196, 193, 193, 0.372);
-  border: none;
-  padding-inline: 2rem;
-  padding-block: 1rem;
-  transition: scale 0.2s ease;
-}
-
-.card>p {
-  font-weight: 550;
-}
-
-.card:hover {
-  cursor: pointer;
-  scale: 1.03;
-}
-
-.button {
-  transition: 0.2s ease scale;
-  cursor: pointer;
-}
-
-.btn-nav,
-.btn-nav:hover {
-  background: #96bb7c;
-  color: #ffffff
-}
-
-.cards {
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-}
-
-.button:hover {
-  scale: 1.02;
-}
-
-.image-hero {
-  height: 80vh !important;
-}
-
-.cards-car {
-  font-size: 80%;
-}
-
-.card-team {
-  box-shadow: 0 1rem 1rem rgba(128, 128, 128, 0.248);
-  border-radius: 1rem;
-  overflow: hidden;
-
-  cursor: pointer;
-  transition: scale 0.2s ease-out;
-  min-width: 10rem !important;
-}
-
-.card-team:hover {
-  scale: 1.02;
-}
-
-@media screen and (max-width: 576px) {
-
-  .packages,
-  .video,
-  .cards,
-  .newsletter {
-    min-width: 100vw !important;
-    padding-inline: 1rem !important;
-  }
-
-  .card-team {
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 992px) {
-
-  .packages,
-  .video,
-  .hero,
-  .cards,
-  .newsletter {
-    min-width: 100vw !important;
-    padding-inline: 5rem;
-  }
-
-  .btn-nav {
-    background: #96bb7c00;
-    color: #000000;
+  * {
     padding: 0;
-    padding-block: 1rem;
-
-  }
-
-  .img-card-info {
-    aspect-ratio: 2;
-  }
-
-  .outlinedbtn {
-    color: #000;
-    justify-content: flex-start !important;
     margin: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .hero,
+  .newsletter,
+  nav {
+    background: #fff2f3;
+    padding-inline: 7rem !important;
+    height: fit-content;
+
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .w-max {
+    width: max-content;
+  }
+
+  .outlinedbtn:hover {
+    background: #96bb7c39;
+  }
+
+  .packages,
+  .video,
+  .cards,
+  .newsletter {
+    min-height: 100vh;
+    width: 100vw;
+    padding-inline: 10rem;
+  }
+
+  .image-hero {
+    height: 50vh !important;
+  }
+
+  .nav-link:hover {
+    transform: translateY(-0.3rem);
+    color: #ff6868 !important;
+  }
+
+  .nav-link {
+    transition: ease 0.3s;
+
+  }
+
+  .navbar-toggler {
+    max-width: min-content !important;
+  }
+
+  .iconsdiv img,
+  .iconsdiv span:nth-of-type(1) {
+    cursor: pointer;
+  }
+
+  .card {
+    box-shadow: 0rem 1rem 1rem rgba(196, 193, 193, 0.372);
+    border: none;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    transition: scale 0.2s ease;
+  }
+
+  .card>p {
+    font-weight: 550;
+  }
+
+  .card:hover {
+    cursor: pointer;
+    scale: 1.03;
+  }
+
+  .button {
+    transition: 0.2s ease scale;
+    cursor: pointer;
+  }
+
+  .btn-nav,
+  .btn-nav:hover {
+    background: #96bb7c;
+    color: #ffffff
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .button:hover {
+    scale: 1.02;
+  }
+
+  .image-hero {
+    height: 80vh !important;
   }
 
   .cards-car {
-    justify-content: center !important;
-    flex-wrap: wrap;
+    font-size: 80%;
   }
 
   .card-team {
-    margin-inline: 1.5rem;
+    box-shadow: 0 1rem 1rem rgba(128, 128, 128, 0.248);
+    border-radius: 1rem;
+    overflow: hidden;
+
+    cursor: pointer;
+    transition: scale 0.2s ease-out;
+    min-width: 10rem !important;
   }
 
-  .container {
-    align-items: center;
+  .card-team:hover {
+    scale: 1.02;
   }
 
-  nav {
-    padding: 1rem !important;
-    min-width: 100vw;
+  @media screen and (max-width: 576px) {
+
+    .packages,
+    .video,
+    .cards,
+    .newsletter {
+      min-width: 100vw !important;
+      padding-inline: 1rem !important;
+    }
+
+    .card-team {
+      width: 70%;
+    }
+    footer  p{
+      width: 100%;
+      text-align: left;
+    }
   }
 
-  .btn-nav {
-    color: #000 !important;
+  @media screen and (max-width: 992px) {
+
+    .packages,
+    .video,
+    .hero,
+    .cards,
+    .newsletter {
+      min-width: 100vw !important;
+      padding-inline: 5rem;
+    }
+
+    .btn-nav {
+      background: #96bb7c00;
+      color: #000000;
+      padding: 0;
+      padding-block: 1rem;
+
+    }
+
+    .img-card-info {
+      aspect-ratio: 2;
+    }
+
+    .outlinedbtn {
+      color: #000;
+      justify-content: flex-start !important;
+      margin: 0;
+    }
+
+    .cards-car {
+      justify-content: center !important;
+      flex-wrap: wrap;
+    }
+
+    .card-team {
+      margin-inline: 1.5rem;
+    }
+
+    .container {
+      align-items: center;
+    }
+
+    nav {
+      padding: 1rem !important;
+      min-width: 100vw;
+    }
+
+    .btn-nav {
+      color: #000 !important;
+    }
+
+    .image-hero {
+      height: 45vh !important ;
+    }
   }
 
-  .image-hero {
-    height: 45vh !important ;
-  }
-}
+  @media screen and (max-width: 1080px) {
+    .image-hero {
+      position: static !important;
+      width: 100%;
+    }
 
-@media screen and (max-width: 1080px) {
-  .image-hero {
-    position: static !important;
-    width: 100%;
-  }
+    .hero {
+      padding-inline: 2rem !important;
+    }
 
-  .hero {
-    padding-inline: 2rem !important;
-  }
+    .wrapper>div {
+      margin-block: 5rem;
+    }
 
-  .wrapper>div {
-    margin-block: 5rem;
-  }
+    .newsletter {
+      margin-bottom: 0 !important;
+      padding-bottom: 5rem;
+    }
 
-  .newsletter {
-    margin-bottom: 0 !important;
-    padding-bottom: 5rem;
-  }
+    .hero {
+      margin-top: 0 !important;
+    }
 
-  .hero {
-    margin-top: 0 !important;
-  }
+    .newsletter {
+      padding-inline: 2rem !important;
+    }
 
-  .newsletter {
-    padding-inline: 2rem !important;
+    .text-secondary {
+      font-size: small !important;
+    }
   }
-
-  .text-secondary {
-    font-size: small !important;
-  }
-}
