@@ -48,15 +48,18 @@ a {
 
 .nav-link:hover {
   transform: translateY(-0.3rem);
-  color: #ff6868 !important; 
+  color: #ff6868 !important;
 }
-.nav-link{
+
+.nav-link {
   transition: ease 0.3s;
- 
+
 }
+
 .navbar-toggler {
   max-width: min-content !important;
 }
+
 .iconsdiv img,
 .iconsdiv span:nth-of-type(1) {
   cursor: pointer;
@@ -83,10 +86,13 @@ a {
   transition: 0.2s ease scale;
   cursor: pointer;
 }
-.btn-nav, .btn-nav:hover {
+
+.btn-nav,
+.btn-nav:hover {
   background: #96bb7c;
   color: #ffffff
 }
+
 .cards {
   display: flex;
   flex-direction: row;
@@ -95,6 +101,10 @@ a {
 
 .button:hover {
   scale: 1.02;
+}
+
+.image-hero {
+  height: 80vh !important;
 }
 
 .cards-car {
@@ -140,23 +150,25 @@ a {
     min-width: 100vw !important;
     padding-inline: 5rem;
   }
+
   .btn-nav {
     background: #96bb7c00;
     color: #000000;
     padding: 0;
     padding-block: 1rem;
-  
-}
+
+  }
+
   .img-card-info {
     aspect-ratio: 2;
   }
-  .outlinedbtn
-  {
+
+  .outlinedbtn {
     color: #000;
-    padding: 0 !important ;
     justify-content: flex-start !important;
-    margin: 0 ;
+    margin: 0;
   }
+
   .cards-car {
     justify-content: center !important;
     flex-wrap: wrap;
@@ -177,6 +189,10 @@ a {
 
   .btn-nav {
     color: #000 !important;
+  }
+
+  .image-hero {
+    height: 45vh !important ;
   }
 }
 
